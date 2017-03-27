@@ -1,2 +1,2 @@
 # goplay
-Golang snippets
+Golang snippets from https://gobyexample.com/
