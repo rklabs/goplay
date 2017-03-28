@@ -28,6 +28,14 @@ func preorder(root *node) {
 	}
 }
 
+func inorder(root *node) {
+        if root != nil {
+                fmt.Println(root.val)
+                inorder(root.left)
+                inorder(root.right)
+        }
+}
+
 func main() {
 	var root *node
 
